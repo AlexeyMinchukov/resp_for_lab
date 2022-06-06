@@ -1,0 +1,83 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E5E5E5;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.splash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 89px 78px 55px 50px;
+}
+
+.splash .container {
+  width: 467px;
+  height: 896px;
+}
+
+.splash .container .shape {
+  width: 160px;
+  height: 176px;
+  background: url(./img/Union.png) no-repeat center/cover;
+}
+
+.splash .container .shape .message {
+  position: absolute;
+  width: 152px;
+  height: 91px;
+  left: 70px;
+  top: 200px;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 101px;
+}
+
+.splash .container .lobster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 470px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.splash .container .form {
+  position: absolute;
+  width: 174px;
+  height: 77px;
+  left: 150px;
+  top: 820px;
+  background: #000000;
+  border: 6px solid #FFFFFF;
+}
+
+.splash .container .form .arrows {
+  position: absolute;
+  width: 138.57px;
+  height: 49.87px;
+  left: 15px;
+  top: 16px;
+}
+/*# sourceMappingURL=style.css.map */

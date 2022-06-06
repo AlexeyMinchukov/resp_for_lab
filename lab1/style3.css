@@ -1,0 +1,142 @@
+body {
+    background-image: "background.png";
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  
+a { color: black; text-decoration:none;}
+
+.splash .container .house {
+   position: absolute;
+   top: 10px;
+   left: 10px
+  }
+
+.splash .container .list {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+  }
+
+.splash .container .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 30px;
+    margin: 10px 78px 10px 50px;
+  }
+
+.splash .container .text_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 150px 78px 55px 50px;
+  }
+
+.splash .container .bee {
+    position: absolute;
+    width: 268px;
+    height: 450px;
+    left: 0px;
+    top: 600px;
+  }
+
+.splash .container .pizza {
+    position: absolute;
+    width: 324px;
+    height: 400px;
+    left: 100px;
+    top: 600px;
+  }
+
+.splash .container .behance {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 400px;
+    left: 50px;
+  }
+
+.splash .container .dribbble {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 400px;
+    left: 165px;
+  }
+
+.splash .container .group {
+    position: absolute;
+    width: 580px;
+    height: 370px;
+    top: 600px;
+    left: 0px;
+  }
+
+.splash .container .bb8 {
+    position: absolute;
+    width: 480px;
+    height: 700px;
+    left: 100px;
+    top: 550px;
+  }
+
+  .splash .container .linkedin {
+    position: absolute;
+    width: 100px;
+    left: 50px;
+    top: 350px;
+  }
+
+.splash .container .be {
+    position: absolute;
+    width: 100px;
+    left: 170px;
+    top: 350px;
+  }
+
+.splash .container .p {
+    position: absolute;
+    width: 100px;
+    left: 290px;
+    top: 350px;
+  }
+
+.splash .container .dr {
+    position: absolute;
+    width: 100px;
+    left: 50px;
+    top: 470px;
+  }
+
+.splash .container .p1 {
+    position: absolute;
+    width: 100px;
+    left: 170px;
+    top: 470px;
+  }
+
+.splash .container .inst {
+    position: absolute;
+    width: 100px;
+    left: 290px;
+    top: 470px;
+  }
+
+.splash .container .Cookie {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 150px;
+    top: 700px;
+  }
