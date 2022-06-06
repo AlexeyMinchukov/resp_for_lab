@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #443d3d;
+  background: url(http://bgfons.com/uploads/bones/bones_texture2469.jpg) no-repeat center/cover;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 512.8px;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.wrapper .container .register {
+  margin-bottom: 5px;
+  font-size: 50px;
+}
+
+.wrapper .container .add_info {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.wrapper .container .personal_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 512.8px;
+  max-width: 100%;
+}
+
+.wrapper .container .personal_info .info {
+  background-color: white;
+  border: 2px solid #1b9bbb;
+  padding: 2px 15px;
+  color: #4b4848;
+  font-size: large;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 25px;
+  border-radius: 50px;
+}
+
+.wrapper .container .personal_info .info::-webkit-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.wrapper .container .personal_info .info:-ms-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.wrapper .container .personal_info .info::-ms-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.wrapper .container .personal_info .info::placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.wrapper .container .personal_info .submit {
+  border: 2px solid gray;
+  padding: 7px 40px;
+  border-color: aquamarine;
+  border-radius: 15px;
+  background-color: #1b9bbb;
+  color: aliceblue;
+  font-weight: 600;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
+.wrapper .container .personal_info .submit:hover {
+  background-color: #116175;
+  cursor: pointer;
+}
+
+.wrapper .container .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+.wrapper .container .login .link {
+  color: #443d3d;
+  text-decoration: none;
+  opacity: 0.75;
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+.wrapper .container .login .link:hover {
+  opacity: 1;
+}
+
+.wrapper .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  max-width: 100%;
+}
+
+.wrapper .logo img {
+  height: 170px;
+}
+
+.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+}
+
+.users .information {
+  margin: 5px;
+  color: #343d94;
+  font-style: italic;
+}
+
+.users button {
+  margin: 5px;
+  padding: 7px 20px;
+  border-radius: 50px;
+  border-color: #0f0c0c;
+  background-color: transparent;
+  color: red;
+  font-size: large;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
+.users button:hover {
+  background-color: #615b5b;
+}
+/*# sourceMappingURL=style.css.map */
